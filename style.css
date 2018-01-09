@@ -72,3 +72,26 @@ header>h3{
 header>p{
 	font-size: 0.75em;
 }
+
+.subscribe{
+	background: rgba(0,0,0,0.65);
+	display: table;
+	padding: 20px;
+	margin: 0 auto 10px auto;
+	border-radius: 5px;
+}
+
+.subscribe input[type="text"], .subscribe input[type="email"] {
+	padding: 0;
+}
+
+.subscribe input[type="submit"] {
+	background: #ae2c52;
+	border: 0;
+	color: #fff;
+	font-size: 1.25em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	padding: 10px, 35px;
+	cursor: pointer;
+}
