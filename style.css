@@ -83,6 +83,19 @@ header>p{
 
 .subscribe input[type="text"], .subscribe input[type="email"] {
 	padding: 0;
+	border: 0;
+	width: 320px;
+	margin-right: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	padding: 12px 20px 13px 20px;
+	box-sizing: border-box;
+
+}
+
+.subscribe input{
+	float: left;
+
 }
 
 .subscribe input[type="submit"] {
@@ -94,4 +107,21 @@ header>p{
 	font-weight: 700;
 	padding: 10px, 35px;
 	cursor: pointer;
+}
+
+article{
+	width: 900px;
+	margin: 0 auto;
+	padding: 50px 20px;
+}
+
+article>h1{
+	font-size: 3em ;
+	text-align: center;
+	margin-bottom: 25px;	
+}
+
+article>p{
+	margin-bottom: 30px;
+	
 }
